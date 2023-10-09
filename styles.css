@@ -1,0 +1,132 @@
+/* Styles for .home-WQf */
+.home-WQf {
+  align-items: center;
+  background-color: #123c29;
+  background-image: url('./img/landing.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 2.5rem 3.3rem 32.213rem 3.3rem;
+  position: relative;
+  width: 100%;
+  
+  background-size: cover; /* Use 'cover' to ensure the image covers the entire container */
+  background-attachment: fixed; /* Fixed background attachment */
+}
+
+/* Styles for .auto-group-ovvm-gTZ */
+.auto-group-ovvm-gTZ {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  margin: 0rem 3.6rem 18.4rem 0rem;
+  width: calc(100% - 3.6rem);
+}
+
+/* Styles for .colorsquare-1-aYw */
+.colorsquare-1-aYw {
+  flex-shrink: 0;
+  height: 14.8rem;
+  margin-right: 47.1rem;
+  object-fit: cover;
+  vertical-align: top;
+  width: 14.8rem;
+}
+
+/* Styles for .about-events-resources-community-contact-join-tZd */
+.about-events-resources-community-contact-join-tZd {
+  color: #ffffff;
+  flex-shrink: 0;
+  font-family: Work Sans, 'Source Sans Pro';
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.1725;
+  margin-bottom: 2.2rem;
+  white-space: nowrap;
+}
+
+/* Styles for .auto-group-ggjj-7hH */
+.auto-group-ggjj-7hH {
+  flex-shrink: 0;
+  height: 34.8rem;
+  margin: 0rem 25.9rem 2.1rem 26rem;
+  position: relative;
+  width: calc(100% - 51.9rem);
+}
+
+/* Styles for .empowering-students-interested-in-ui-ux-design-web-design-and-design-thinking-at-the-university-of-california-riverside-EG7 */
+.empowering-students-interested-in-ui-ux-design-web-design-and-design-thinking-at-the-university-of-california-riverside-EG7 {
+  color: #ffffff;
+  font-family: Work Sans, 'Source Sans Pro';
+  font-size: 4rem;
+  font-weight: 600;
+  height: 14.1rem;
+  left: 8rem;
+  line-height: 1.1725;
+  position: absolute;
+  text-align: center;
+  top: 20.7rem;
+  width: 98.2rem;
+}
+
+/* Styles for .whiterectangle-1-3UT */
+.whiterectangle-1-3UT {
+  height: 22.9rem;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  vertical-align: top;
+  width: 114.3rem;
+}
+
+/* Styles for .auto-group-dp5m-Mzw */
+.auto-group-dp5m-Mzw {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  height: 6.9rem;
+  margin: 0rem 59.4rem 0rem 59.3rem;
+  width: calc(100% - 118.7rem);
+}
+
+/* Styles for .auto-group-bmqy-THH */
+.auto-group-bmqy-THH {
+  align-items: center;
+  background-color: #64a587;
+  border-radius: 1.4rem;
+  color: #ffffff;
+  display: flex;
+  flex-shrink: 0;
+  font-family: Work Sans, 'Source Sans Pro';
+  font-size: 3.3227rem;
+  font-weight: 700;
+  height: calc(100% - 0.04rem);
+  justify-content: center;
+  line-height: 1.1725;
+  margin: 0rem 5rem 0.04rem 0rem;
+  white-space: nowrap;
+  width: 16.8rem;
+}
+
+/* Styles for .auto-group-xv8p-qYj */
+.auto-group-xv8p-qYj {
+  align-items: center;
+  border: solid 0.4rem #64a587;
+  border-radius: 1.4rem;
+  box-sizing: border-box;
+  color: #64a587;
+  display: flex;
+  flex-shrink: 0;
+  font-family: Work Sans, 'Source Sans Pro';
+  font-size: 3.3227rem;
+  font-weight: 700;
+  height: 100%;
+  justify-content: center;
+  line-height: 1.1725;
+  white-space: nowrap;
+  width: 25.7rem;
+}
