@@ -146,7 +146,7 @@ function Home() {
                     <img src="linkedin.png" alt="LinkedIn" />
                 </a>
                 <a href="mailto:designatucr@gmail.com">
-                    <img src="email.png" alt="Email" />
+                    <img src="email.png" alt="Eail" />
                 </a>
             </div>
 
