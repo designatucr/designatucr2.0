@@ -1,0 +1,122 @@
+.landing {
+    background-color: #c4dbc1;
+    height: auto;
+}
+
+.landing-text {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center;
+  }
+  
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    text-align: center; 
+    color: black;
+    font-family: WorkSans-Semi, sans-serif;
+    font-size: 30px;
+  }
+  
+  .landing-text img, .about-gif {
+    max-width: 45%;
+    height: auto;
+  }
+  
+  .about-gif {
+    margin-left: 0; /* Add some space to the left of the About.gif */
+    max-width: 49%;
+    height: auto;
+  }
+  
+  .landing-text-2 {
+    padding-left: 10px;
+  }
+
+  .values {
+    height: auto;
+    background-color: #fdf9ed;
+  }
+
+  .our-values {
+    margin-top: 0;
+    padding-top: 3.3rem;
+    text-align: center;
+    font-family: WorkSans-Bold, sans-serif;
+    font-size: 50px;
+  }
+
+
+  .each-value {
+    display: flex;
+    justify-content: space-between; /* To align values horizontally */
+    align-items: center; /* To center values vertically */
+    flex-wrap: wrap; /* Allow values to wrap to the next line if necessary */
+    max-width: 100%; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the container */
+  }
+  .value {
+    text-align: center;
+    margin: 30px; /* Add margin to separate each value */
+    flex: 1; /* Each value takes equal horizontal space */
+  }
+  .value img {
+    max-width: 100%;
+    height: auto;
+  }
+  .value-name {
+    font-size: 30px;
+    font-family: WorkSans-Bold, sans-serif;
+    font-weight: 700;
+  }
+  .value-text {
+    font-family: WorkSans-Semi, sans-serif;
+
+    font-size: 20px;
+  }
+  .meet-board {
+    background-color: #e9d8c9;
+    height: 150vh;
+  }
+  .board-header {
+    margin-top: 0px;
+    padding-top: 3.3rem;
+    text-align: center;
+    font-family: WorkSans-Bold, sans-serif;
+    font-size: 50px;
+  }
+  .board-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the board members horizontally */
+    gap: 40px; /* Add space between board members */
+  }
+  
+  /* Style for individual board members */
+  .board-member {
+    width: 270px; /* Adjust the width as needed */
+    text-align: center;
+    margin-top: 50px;
+    height: 270px; /* Set a fixed height for the board member container */
+  }
+  
+  /* Style for board member images */
+  .board-member img {
+    max-width: 100%;
+    max-height: 100%; /* Ensure the image doesn't exceed the container's height */
+    object-fit: cover; /* Maintain aspect ratio and crop as needed to fill the container */
+    border-radius: 20%; /* Create rounded images */
+  }
+  /* Style for board member names */
+  .board-member h2 {
+    margin: 10px 0;
+    font-size: 1.2rem; /* Adjust font size as needed */
+  }
+  
+  /* Style for board member roles */
+  .board-member p {
+    font-size: 1rem; /* Adjust font size as needed */
+    color: #777; /* Add a gray color to the role text */
+  }

@@ -1,5 +1,6 @@
+
 .home {
-  background-color: #123c29;
+  background-color: #457860;
   background-image: url(./img/landing.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -27,7 +28,7 @@
   position: relative;
   font-family: WorkSans-Bold, sans-serif;
   font-size: 1.2rem;
-  background-color: #123c29;
+  background-color: #457860;
 }
 
 .logo {
@@ -132,7 +133,7 @@
   background-color: #64a587;
   color: #fff;
   padding: 10px 30px;
-  border: 50px solid #18da18;
+  border: 50px solid #fbc193;
   margin-left: 10px;
   border: none;
   cursor: pointer;
@@ -143,11 +144,11 @@
 }
 
 .landing-button1:hover {
-  background-color: #2dea59;
+  background-color: #fbc193;
 }
 
 .landing-button2:hover {
-  background-color: #18da18;
+  background-color: #fbc193;
   border-color: transparent;
 }
 

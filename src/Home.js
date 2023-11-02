@@ -7,15 +7,17 @@ function Home() {
     // LANDING PAGE CONTAINER
     <div>
     <div className="home">
-      <div className="header-home">
+    <div className="header-home">
         <div className="logo">
           <img src='ColorSmallLogo.png' alt="Your Logo" id="imghead" />
         </div>
         <div className="other-content">
-          <Link to="/">About</Link>
-          <Link to="/">Events</Link>
-          <Link to="/resources">Resources</Link>
-          <Link to="/community">Community</Link>
+          <Link to="/about">About</Link>
+          <Link to="/construction">Events</Link>
+          <Link to="https://docs.google.com/spreadsheets/d/1lU-l5BQb6h64quC7Qt3crtjQLQ64hpcmxyI35Izxnyo/edit?usp=sharing" target="_blank">
+                Resources
+          </Link>
+          <Link to="/construction">Community</Link>
           <Link to="/contact">Contact</Link>
           <Link to="/join">Join</Link>
         </div>
@@ -31,10 +33,24 @@ function Home() {
             </div>
             <div className='landing-buttons'>
                 <div className='landing-button'>
-                    <button className="landing-button1">Apply</button>
+                    <button
+                        className="landing-button1"
+                        onClick={() => {
+                            window.location.href = 'https://forms.gle/6TNxvdXqkmjKKHsu9';
+                        }}
+                        >
+                        Apply
+                    </button>
                 </div>
                 <div className='landing-button'>
-                    <button className="landing-button2">Learn More</button>
+                <button
+                        className="landing-button2"
+                        onClick={() => {
+                            window.location.href = 'https://linktr.ee/designatucr';
+                        }}
+                        >
+                        Learn More
+                    </button>
                 </div>
             </div>
       </div>
