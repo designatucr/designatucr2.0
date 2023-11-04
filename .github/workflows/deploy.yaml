@@ -27,7 +27,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Build with Create React App
-        run: npm run build
+        run: npm i && npm run build
       - name: touch
         run: touch ./.nojekyll
       - name: Upload artifact
