@@ -5,6 +5,7 @@ import AboutPage from "./AboutPage";
 import Home from "./Home";
 import Contact from "./Contact";
 import Construction from "./Construction";
+import Events from "./Events"
 import "./AboutPage.css";
 import "./Contact.css";
 import "./Events.css";
@@ -16,7 +17,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/construction" element={<Construction />} />
+        <Route path="/events" element={<Events />} />
+
+        {/* <Route path="/construction" element={<Construction />} /> */}
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>

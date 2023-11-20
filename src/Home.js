@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { FaFacebook, FaInstagram, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+const openInNewTab = (url) => {
+  const newWindow = window.open(url, '_blank', 'noopener,noreferrer');
+  if (newWindow) newWindow.opener = null;
+};
 function Home() {
   return (
     // LANDING PAGE CONTAINER
@@ -12,14 +16,13 @@ function Home() {
           </div>
           <div className="other-content">
             <Link to="/about">About</Link>
-            <Link to="/construction">Events</Link>
+            <Link to="/events">Events</Link>
             <Link
-              to="https://docs.google.com/spreadsheets/d/1lU-l5BQb6h64quC7Qt3crtjQLQ64hpcmxyI35Izxnyo/edit?usp=sharing"
+              to="https://airtable.com/appkMhj4uheYOF8LG/shrNK84HAE6F0YSiT"
               target="_blank"
             >
               Resources
             </Link>
-            <Link to="/construction">Community</Link>
             <Link to="/contact">Contact</Link>
             <Link to="/join">Join</Link>
           </div>
@@ -38,22 +41,18 @@ function Home() {
             <div className="landing-button">
               <button
                 className="landing-button1"
-                onClick={() => {
-                  window.location.href = "https://forms.gle/6TNxvdXqkmjKKHsu9";
-                }}
+                onClick={() => openInNewTab("https://forms.gle/6TNxvdXqkmjKKHsu9")}
               >
                 Apply
-              </button>
+              </button> 
             </div>
             <div className="landing-button">
               <button
                 className="landing-button2"
-                onClick={() => {
-                  window.location.href = "https://linktr.ee/designatucr";
-                }}
+                onClick={() => openInNewTab("https://linktr.ee/designatucr")}
               >
                 Learn More
-              </button>
+              </button> 
             </div>
           </div>
         </div>
@@ -91,7 +90,7 @@ function Home() {
               about design, build their portfolio, meet other designers, and
               prepare for their future careers.
             </p>
-            <Link to="/about">
+            <Link to="/events">
               <div className="landing-button">
                 <button className="landing-button1">Our Events</button>
               </div>
@@ -168,37 +167,36 @@ function Home() {
           </div>
         </div>
       </div>
-      <div class="instagram">
-        <h1 id="ig1"> Follow us on Instagram</h1>
-        <h3 id="ig2"> @designatucr</h3>
-        <img src="ig2.png" alt="Events" />
-      </div>
+      
       <div class="sponsor">
         <h2 id="sponsor">Interested in parterning with us?</h2>
         <p id="sponsor-bottom">
-          Send us a <span style={{ color: "#64a587" }}>message!</span>
+          Check out our  <span style={{ color: "#64a587" }}><a href="https://drive.google.com/file/d/14EPXS4O_yO0O_sql82-G0_SZbO0aIFST/view?usp=sharing" target="_blank">
+            Sponsorship Packet!
+          </a></span>
+          
         </p>
       </div>
 
-      <div className="footnote">
-        <div className="left-logo">
-          <img src="WhiteLong.png" alt="Footer Logo" className="footer-logo" />
+        <div className="footnote">
+          <div className="left-logo">
+            <img src="WhiteLong.png" alt="Footer Logo" className="footer-logo" />
+          </div>
+          <div className="media-icons">
+              <a onClick={() => openInNewTab("https://www.facebook.com/designatucr/")}>
+                <FaFacebook />
+              </a>
+              <a onClick={() => openInNewTab("https://www.instagram.com/designatucr")}>
+                <FaInstagram />
+              </a>
+              <a  onClick={() => openInNewTab("https://www.linkedin.com/designatucr")}>
+                <FaLinkedin />
+              </a>
+              <a  onClick={() => openInNewTab("mailto:designatucr@gmail.com")}>
+                <FaEnvelope />
+              </a>
+            </div>
         </div>
-        <div className="media-icons">
-          <a href="https://www.facebook.com/designatucr/">
-            <img src="facebook.png" alt="Facebook" />
-          </a>
-          <a href="https://www.instagram.com/designatucr">
-            <img src="instagram.png" alt="Instagram" />
-          </a>
-          <a href="https://www.linkedin.com/designatucr">
-            <img src="linkedin.png" alt="LinkedIn" />
-          </a>
-          <a href="mailto:designatucr@gmail.com">
-            <img src="email.png" alt="Eail" />
-          </a>
-        </div>
-      </div>
     </div>
   );
 }

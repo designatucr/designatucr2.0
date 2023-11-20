@@ -15,7 +15,7 @@ function Events() {
             <Link to="/about">About</Link>
             <Link to="/construction">Events</Link>
             <Link
-              to="https://docs.google.com/spreadsheets/d/1lU-l5BQb6h64quC7Qt3crtjQLQ64hpcmxyI35Izxnyo/edit?usp=sharing"
+              to="https://airtable.com/appkMhj4uheYOF8LG/shrNK84HAE6F0YSiT"
               target="_blank"
             >
               Resources
