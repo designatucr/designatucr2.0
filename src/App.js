@@ -4,8 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom"; // Im
 import AboutPage from "./AboutPage";
 import Home from "./Home";
 import Contact from "./Contact";
-import Construction from "./Construction";
-import Events from "./Events"
+import Events from "./Events";
 import "./AboutPage.css";
 import "./Contact.css";
 import "./Events.css";
@@ -18,8 +17,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/events" element={<Events />} />
-
-        {/* <Route path="/construction" element={<Construction />} /> */}
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
