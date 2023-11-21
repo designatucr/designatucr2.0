@@ -1,19 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faLinkedinIn,
-  faFacebook,
-  faGoogle,
-  faSpotify,
-} from "@fortawesome/free-brands-svg-icons";
-import { faCalendar } from "@fortawesome/free-solid-svg-icons";
+import { FaFacebook, FaInstagram, FaLinkedin, FaEnvelope, FaSpotify, FaCalendar } from 'react-icons/fa';
+
+const openInNewTab = (url) => {
+  const newWindow = window.open(url, '_blank', 'noopener,noreferrer');
+  if (newWindow) newWindow.opener = null;
+};
 
 function Contact() {
   return (
     <div>
-      <div class="header">
+      <div className="header">
         <div className="header-home">
           <Link to="/">
             <div className="logo">
@@ -22,92 +19,93 @@ function Contact() {
           </Link>
           <div className="other-content">
             <Link to="/about">About</Link>
-            <Link to="/construction">Events</Link>
-            <Link
-              to="https://docs.google.com/spreadsheets/d/1lU-l5BQb6h64quC7Qt3crtjQLQ64hpcmxyI35Izxnyo/edit?usp=sharing"
+            <Link to="/events">Events</Link>
+              <Link
+              to="https://airtable.com/appkMhj4uheYOF8LG/shrNK84HAE6F0YSiT"
               target="_blank"
             >
               Resources
             </Link>
-            <Link to="/construction">Community</Link>
             <Link to="/contact">Contact</Link>
             <Link to="/join">Join</Link>{" "}
           </div>
         </div>
       </div>
-      <div class="contact-us">
-        <p class="get-in-touch">Get in touch with us!</p>
-        <div class="social-links">
-          <div class="social-link">
-            <a
-              href="https://www.instagram.com/designatucr/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faInstagram} className="icon" />
-            </a>
+      <div className="contact-us">
+        <p className="get-in-touch">Get in touch with us!</p>
+        <div className="social-links">
+            <div className="social-link">
+              <a
+                href="https://www.instagram.com/designatucr/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram className="icon" />
+              </a>
+              <p className="social-link-text">Instagram</p>
+            </div>
+
+            <div className="social-link">
+              <a
+                href="https://www.facebook.com/designatucr/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebook className="icon" />
+              </a>
+              <p className="social-link-text">Facebook</p>
+            </div>
+
+            <div className="social-link">
+              <a
+                href="https://www.linkedin.com/designatucr/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin className="icon" />
+              </a>
+              <p className="social-link-text">LinkedIn</p>
+            </div> 
+            <div className="social-link">
+              <a
+                href="https://www.linkedin.com/designatucr/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin className="icon" />
+              </a>
+              <p className="social-link-text">LinkedIn</p>
+            </div> 
+            
+            
+
+  {/* Add similar structure for other social media */}
           </div>
-          <div class="social-link">
-            <a
-              href="https://www.facebook.com/designatucr/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faFacebook} className="icon" />
-            </a>
+        {/* <div className="social-links">
+          <p className="social-link-text">/designatucr</p>
+          <p className="social-link-text">designatucr@gmail.com</p>
+        </div> */}
+
+
+        
+        <div className="footnote">
+          <div className="left-logo">
+            <img src="WhiteLong.png" alt="Footer Logo" className="footer-logo" />
           </div>
-        </div>
-        <div class="social-links">
-          <p class="social-link-text">@designatucr</p>
-          <p class="social-link-text">/designatucr</p>
-        </div>
-        <div class="social-links">
-          <div class="social-link">
-            <a
-              href="https://www.linkedin.com/designatucr/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faLinkedinIn} className="icon" />
-            </a>
-          </div>
-          <div class="social-link">
-            <a
-              href="mailto:designatucr@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faGoogle} className="icon" />
-            </a>
-          </div>
-        </div>
-        <div class="social-links">
-          <p class="social-link-text">/designatucr</p>
-          <p class="social-link-text">designatucr@gmail.com</p>
-        </div>
-        <div class="social-links">
-          <div class="social-link">
-            <a
-              href="https://open.spotify.com/user/wnei0wjizwwua4h8fkg8627td?si=ee6daa1d90ef4fb0&nd=1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faSpotify} className="icon" />
-            </a>
-          </div>
-          <div class="social-link">
-            <a
-              href="/https://calendar.google.com/calendar/u/0/r?cid=ZGVzaWduYXR1Y3JAZ21haWwuY29t&pli=1"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faCalendar} className="icon" />
-            </a>
-          </div>
-        </div>
-        <div class="social-links">
-          <p class="social-link-text">@designatucr</p>
-          <p class="social-link-text">designatucr@gmail.com</p>
+          <div className="media-icons">
+              <a onClick={() => openInNewTab("https://www.facebook.com/designatucr/")}>
+                <FaFacebook />
+              </a>
+              <a onClick={() => openInNewTab("https://www.instagram.com/designatucr")}>
+                <FaInstagram />
+              </a>
+              <a  onClick={() => openInNewTab("https://www.linkedin.com/designatucr")}>
+                <FaLinkedin />
+              </a>
+              <a  onClick={() => openInNewTab("mailto:designatucr@gmail.com")}>
+                <FaEnvelope />
+              </a>
+            </div>
         </div>
       </div>
     </div>

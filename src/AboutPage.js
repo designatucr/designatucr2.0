@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaFacebook, FaInstagram, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 function AboutPage() {
   return (
@@ -13,14 +14,13 @@ function AboutPage() {
           </Link>
           <div className="other-content">
             <Link to="/about">About</Link>
-            <Link to="/construction">Events</Link>
+            <Link to="/events">Events</Link>
             <Link
-              to="https://docs.google.com/spreadsheets/d/1lU-l5BQb6h64quC7Qt3crtjQLQ64hpcmxyI35Izxnyo/edit?usp=sharing"
+              to="https://airtable.com/appkMhj4uheYOF8LG/shrNK84HAE6F0YSiT"
               target="_blank"
             >
               Resources
             </Link>
-            <Link to="/construction">Community</Link>
             <Link to="/contact">Contact</Link>
             <Link to="/join">Join</Link>
           </div>
@@ -79,6 +79,11 @@ function AboutPage() {
         <h1 class="board-header">Meet the Board</h1>
         <div class="board-members">
           <div class="board-member">
+            <img src="rich.jpg" alt="Board Member 3" />
+            <h2>Professor Rich</h2>
+            <p>Faculty Advisor</p>
+          </div>
+          <div class="board-member">
             <img src="ashley.jpeg" alt="Board Member 1" />
             <h2>Ashley Tsai</h2>
             <p>President</p>
@@ -87,11 +92,6 @@ function AboutPage() {
             <img src="kia1.jpg" alt="Board Member 2" />
             <h2>Kia Nooshi</h2>
             <p>President</p>
-          </div>
-          <div class="board-member">
-            <img src="rich.jpg" alt="Board Member 3" />
-            <h2>Professor Rich</h2>
-            <p>Faculty Advisor</p>
           </div>
           <div class="board-member">
             <img src="raina.jpg" alt="Board Member 4" />
@@ -155,11 +155,26 @@ function AboutPage() {
           </div>
         </div>
       </div>
+      
       <div className="footnote">
-        <div className="left-logo">
-          <img src="WhiteLong.png" alt="Footer Logo" className="footer-logo" />
+          <div className="left-logo">
+            <img src="WhiteLong.png" alt="Footer Logo" className="footer-logo" />
+          </div>
+          <div className="media-icons">
+            <a href="https://www.facebook.com/designatucr/">
+              <FaFacebook />
+            </a>
+            <a href="https://www.instagram.com/designatucr">
+              <FaInstagram />
+            </a>
+            <a href="https://www.linkedin.com/designatucr">
+              <FaLinkedin />
+            </a>
+            <a href="mailto:designatucr@gmail.com">
+              <FaEnvelope />
+            </a>
+          </div>
         </div>
-      </div>
     </div>
   );
 }
