@@ -10,7 +10,7 @@ const Sponsor = () => {
         Check out our{" "}
         <Link
           href="https://drive.google.com/file/d/14EPXS4O_yO0O_sql82-G0_SZbO0aIFST/view?pli=1"
-          className="text-design-green font-semibold"
+          className="text-design-green font-semibold no-underline"
         >
           Sponsorship Packet
         </Link>

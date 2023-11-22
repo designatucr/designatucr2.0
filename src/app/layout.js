@@ -1,5 +1,6 @@
 import { Work_Sans } from "next/font/google";
 import "./globals.css";
+import Navigation from "@/components/Navigation";
 
 const worksans = Work_Sans({ subsets: ["latin"] });
 
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${worksans.className} flex justify-center items-center flex-col`}
       >
+        <Navigation />
         {children}
       </body>
     </html>
