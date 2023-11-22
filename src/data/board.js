@@ -1,17 +1,17 @@
-import Rich from "../../public/Rich.jpeg";
-import Ashley from "../../public/Ashley.jpeg";
-import Rania from "../../public/Rania.jpeg";
-import Tiana from "../../public/Tiana.jpeg";
-import Betty from "../../public/Betty.jpeg";
-import Iman from "../../public/Iman.jpeg";
-import Namit from "../../public/Namit.jpeg";
-import Sarah from "../../public/Sarah.jpeg";
-import Natalie from "../../public/Natalie.jpeg";
-import Anjaline from "../../public/Anjaline.jpeg";
-import Garman from "../../public/Garman.jpeg";
-import Josalyn from "../../public/Josalyn.jpeg";
-import Cece from "../../public/Cece.jpeg";
-import Akanksh from "../../public/Akanksh.jpeg";
+import Rich from "../../public/Rich.webp";
+import Ashley from "../../public/Ashley.webp";
+import Rania from "../../public/Rania.webp";
+import Tiana from "../../public/Tiana.webp";
+import Betty from "../../public/Betty.webp";
+import Iman from "../../public/Iman.webp";
+import Namit from "../../public/Namit.webp";
+import Sarah from "../../public/Sarah.webp";
+import Natalie from "../../public/Natalie.webp";
+import Anjaline from "../../public/Anjaline.webp";
+import Garman from "../../public/Garman.webp";
+import Josalyn from "../../public/Josalyn.webp";
+import Cece from "../../public/Cece.webp";
+import Akanksh from "../../public/Akanksh.webp";
 
 export const Members = [
   {

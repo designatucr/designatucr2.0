@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import LandingLogo from "../../public/LandingLogo.png";
+import LandingLogo from "../../public/LandingLogo.webp";
 import { Links } from "@/data/links";
 
 const Footer = () => {

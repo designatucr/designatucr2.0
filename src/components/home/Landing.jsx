@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Background from "../../../public/Landing.png";
-import LandingLogo from "../../../public/LandingLogo.png";
+import Background from "../../../public/Landing.webp";
+import LandingLogo from "../../../public/LandingLogo.webp";
 import Button from "../Button";
 
 const Landing = () => {

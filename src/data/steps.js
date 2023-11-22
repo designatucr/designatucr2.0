@@ -1,7 +1,7 @@
-import Apply from "../../public/Apply.png";
-import Slack from "../../public/Slack.png";
-import Substack from "../../public/Substack.png";
-import Events from "../../public/Events.png";
+import Apply from "../../public/Apply.webp";
+import Slack from "../../public/Slack.webp";
+import Substack from "../../public/Substack.webp";
+import Events from "../../public/Events.webp";
 
 export const Steps = [
   {

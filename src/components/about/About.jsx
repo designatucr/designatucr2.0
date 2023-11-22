@@ -1,6 +1,6 @@
 import Image from "next/image";
 import AboutGIF from "../../../public/About.gif";
-import Logo from "../../../public/Logo.png";
+import Logo from "../../../public/Logo.webp";
 
 const About = () => {
   return (

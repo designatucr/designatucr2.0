@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Link from "next/link";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Image from "next/image";
-import Favicon from "../../public/FaviconWhite.png";
+import Favicon from "../../public/FaviconWhite.webp";
 
 const links = [
   {

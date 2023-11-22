@@ -1,6 +1,6 @@
-import Community from "../../public/Community.png";
-import Creativity from "../../public/Creativity.png";
-import Career from "../../public/Career.png";
+import Community from "../../public/Community.webp";
+import Creativity from "../../public/Creativity.webp";
+import Career from "../../public/Career.webp";
 
 export const CoreValues = [
   {
