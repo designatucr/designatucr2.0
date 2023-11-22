@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Why from "../../../public/why.webp";
+import Why from "../../../public/Why.webp";
 import Button from "../Button";
 
 const WhyJoin = () => {
