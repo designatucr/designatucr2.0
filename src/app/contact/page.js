@@ -1,5 +1,13 @@
+import Sponsor from "@/components/Sponsor";
+import Contact from "@/components/contact/Contact";
+
 const Page = () => {
-  return <div>Page</div>;
+  return (
+    <>
+      <Contact />
+      <Sponsor />
+    </>
+  );
 };
 
 export default Page;

@@ -13,6 +13,8 @@ module.exports = {
           orange: "#FBC193",
           pink: "#FCD8CA",
           green: "#64A587",
+          lightgreen: "#C4DBC1",
+          brown: "#E9D8C9",
         },
       },
     },
