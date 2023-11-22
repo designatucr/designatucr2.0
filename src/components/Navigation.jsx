@@ -37,7 +37,7 @@ const Navigation = () => {
   return (
     <Navbar
       collapseOnSelect
-      className="py-0 font-lexend w-full px-3 m-0 min-h-[8vh] flex justify-between items-center !bg-design-green"
+      className="py-0 font-lexend w-full px-3 m-0 min-h-[8vh] flex justify-between items-center !bg-design-darkgreen"
       expand="md"
       fixed="top"
     >
