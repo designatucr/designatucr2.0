@@ -5,13 +5,13 @@ import Button from "../Button";
 
 const Landing = () => {
   return (
-    <div className="">
+    <>
       <Image
         src={Background}
         className="absolute top-0 left-0 h-screen w-screen object-cover -z-10"
       />
       <div className="h-screen w-screen flex justify-center items-center flex-col text-center">
-        <div className="w-9/12">
+        <div className="w-9/12 flex justify-center items-center flex-col">
           <Image src={LandingLogo} />
           <p className="text-3xl text-white font-semibold mb-4">
             Empowering students interested in UI/UX design, web design, and
@@ -23,7 +23,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
