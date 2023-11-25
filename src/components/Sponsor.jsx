@@ -8,14 +8,13 @@ const Sponsor = () => {
       </p>
       <div className="text-xl">
         Check out our{" "}
-        <a
+        <Link
           href="https://drive.google.com/file/d/14EPXS4O_yO0O_sql82-G0_SZbO0aIFST/view?pli=1"
           target="_blank"
-          rel="noopener noreferrer"
           className="text-design-green font-semibold no-underline"
         >
           Sponsorship Packet
-        </a>
+        </Link>
       </div>
     </div>
   );

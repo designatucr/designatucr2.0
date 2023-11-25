@@ -20,7 +20,6 @@ const Footer = () => {
               key={index}
               className="text-white text-3xl hover:!text-design-orange"
               target="_blank"
-              rel="noopener noreferrer"
             >
               {link.icon}
             </Link>
