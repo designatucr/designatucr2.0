@@ -43,7 +43,11 @@ const Navigation = () => {
     >
       <Navbar.Brand className="p-0">
         <Link eventkey="1" className="p-0" href="/">
-          <Image src={Favicon} className="w-20 h-20 object-cover" />
+          <Image
+            src={Favicon}
+            className="w-20 h-20 object-cover"
+            alt="Favicon"
+          />
         </Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="navbar-nav" />

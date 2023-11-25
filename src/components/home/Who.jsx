@@ -6,7 +6,7 @@ const Who = () => {
   return (
     <div className="bg-design-beige py-12 flex justify-center items-center">
       <div className="grid grid-cols-2 gap-3 w-11/12">
-        <Image src={WhoAreWe} />
+        <Image src={WhoAreWe} alt="Who are we?" />
         <div className="flex flex-col justify-center">
           <p className="text-3xl font-semibold mb-3">Why Should I Join?</p>
           <p className="text-xl mb-3">

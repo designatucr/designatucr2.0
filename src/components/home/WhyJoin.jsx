@@ -16,7 +16,7 @@ const WhyJoin = () => {
           <Button text="Our Events" link="/event" />
         </div>
         <div>
-          <Image src={Why} />
+          <Image src={Why} alt="Why join us?" />
         </div>
       </div>
     </div>

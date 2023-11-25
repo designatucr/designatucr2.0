@@ -8,7 +8,7 @@ const About = () => {
       <div className="grid grid-cols-12 w-11/12">
         <div className="col-span-7 text-left flex justify-center items-center">
           <div className="w-10/12">
-            <Image src={Logo} className="w-3/4 mb-3" />
+            <Image src={Logo} className="w-3/4 mb-3" alt="Logo" />
             <p className="text-2xl mb-4">
               We are UC Riverside’s first and only design club supporting
               students in design thinking.
@@ -20,7 +20,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <Image src={AboutGIF} className="col-span-5" />
+        <Image src={AboutGIF} className="col-span-5" alt="About GIF" />
       </div>
     </div>
   );

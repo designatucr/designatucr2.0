@@ -7,7 +7,11 @@ const Footer = () => {
   return (
     <div className="bg-design-darkgreen flex items-center justify-center w-full">
       <div className="w-11/12 flex items-center justify-between">
-        <Image src={LandingLogo} className="h-20 object-contain w-3/12" />
+        <Image
+          src={LandingLogo}
+          className="h-20 object-contain w-3/12"
+          alt="Landing Logo"
+        />
 
         <div className="flex gap-2">
           {Links.map((link, index) => (
