@@ -25,7 +25,7 @@ const links = [
   },
   {
     name: "Join",
-    link: "/about",
+    link: "https://forms.gle/6TNxvdXqkmjKKHsu9",
   },
 ];
 
