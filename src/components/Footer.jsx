@@ -9,16 +9,17 @@ const Footer = () => {
       <div className="w-11/12 flex items-center justify-between">
         <Image
           src={LandingLogo}
-          className="h-20 object-contain w-3/12"
+          className="h-20 object-contain w-2/12"
           alt="Landing Logo"
         />
 
-        <div className="flex gap-2">
+        <div className="flex gap-3">
           {Links.map((link, index) => (
             <Link
               href={link.link}
               key={index}
               className="text-white text-3xl hover:!text-design-orange"
+              target="_blank"
             >
               {link.icon}
             </Link>

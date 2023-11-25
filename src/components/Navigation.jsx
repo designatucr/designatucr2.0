@@ -13,15 +13,11 @@ const links = [
   },
   {
     name: "Events",
-    link: "/about",
+    link: "/events",
   },
   {
     name: "Resources",
-    link: "/about",
-  },
-  {
-    name: "Community",
-    link: "/about",
+    link: "https://airtable.com/appkMhj4uheYOF8LG/shrNK84HAE6F0YSiT",
   },
   {
     name: "Contact",
@@ -29,7 +25,7 @@ const links = [
   },
   {
     name: "Join",
-    link: "/about",
+    link: "https://forms.gle/6TNxvdXqkmjKKHsu9",
   },
 ];
 

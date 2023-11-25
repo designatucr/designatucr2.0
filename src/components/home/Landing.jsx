@@ -19,8 +19,8 @@ const Landing = () => {
             design thinking at the University of California, Riverside
           </p>
           <div className="flex items-center justify-center gap-2">
-            <Button text="Apply" link="" />
-            <Button text="Learn more" link="" />
+            <Button text="Apply" link="https://forms.gle/6TNxvdXqkmjKKHsu9" />
+            <Button text="Learn more" link="https://linktr.ee/designatucr" />
           </div>
         </div>
       </div>
