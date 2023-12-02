@@ -7,7 +7,7 @@ const Values = () => {
       <div className="w-11/12">
         <p className="text-3xl font-bold">Our Values</p>
 
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-1 md:grid-cols-3">
           {CoreValues.map((value, index) => (
             <Value
               key={index}

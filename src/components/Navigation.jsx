@@ -18,14 +18,16 @@ const links = [
   {
     name: "Resources",
     link: "https://airtable.com/appkMhj4uheYOF8LG/shrNK84HAE6F0YSiT",
-  },
-  {
-    name: "Contact",
-    link: "/contact",
+    target: "_blank",
   },
   {
     name: "Join",
     link: "https://forms.gle/6TNxvdXqkmjKKHsu9",
+    target: "_blank",
+  },
+  {
+    name: "Contact",
+    link: "/contact",
   },
 ];
 
@@ -49,15 +51,16 @@ const Navigation = () => {
       <Navbar.Toggle aria-controls="navbar-nav" />
       <Navbar.Collapse id="navbar-nav">
         <Nav className="w-12/12 no-underline ml-auto text-2xl ">
-          {links.map((link, index) => (
+          {links.map(({ link, name, target }, index) => (
             <Nav.Link
               key={index}
               as={Link}
               eventkey="6"
-              href={link.link}
+              target={target}
+              href={link}
               className="px-3 !font-bold no-underline ml-auto text-2xl whitespace-nowrap w-full text-center text-white hover:!text-design-orange hover:cursor-pointer"
             >
-              {link.name}
+              {name}
             </Nav.Link>
           ))}
         </Nav>

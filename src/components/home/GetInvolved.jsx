@@ -11,7 +11,7 @@ const GetInvolved = () => {
           at the University of California, Riverside. Complete the following 4
           steps below to become a member.
         </p>
-        <div className="grid grid-cols-4 gap-2">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-2">
           {Steps.map((step, index) => (
             <Step
               key={index}

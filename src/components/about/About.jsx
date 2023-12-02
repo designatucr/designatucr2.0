@@ -4,9 +4,9 @@ import Logo from "../../../public/Logo.webp";
 
 const About = () => {
   return (
-    <div className="bg-design-lightgreen py-12 flex justify-center items-center">
+    <div className="bg-design-lightgreen flex justify-center items-center min-h-screen">
       <div className="grid grid-cols-12 w-11/12">
-        <div className="col-span-7 text-left flex justify-center items-center">
+        <div className="col-span-12 md:col-span-7 text-left flex justify-center items-center">
           <div className="w-10/12">
             <Image src={Logo} className="w-3/4 mb-3" alt="Logo" />
             <p className="text-2xl mb-4">
@@ -20,7 +20,11 @@ const About = () => {
             </p>
           </div>
         </div>
-        <Image src={AboutGIF} className="col-span-5" alt="About GIF" />
+        <Image
+          src={AboutGIF}
+          className="col-span-12 md:col-span-5"
+          alt="About GIF"
+        />
       </div>
     </div>
   );
